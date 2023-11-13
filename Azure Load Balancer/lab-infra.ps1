@@ -5,7 +5,7 @@
 Clear-Host
 #Variables
 $region = "eastus"
-$username = "sarfarazDico" #username for the VM
+$username = "kodekloud" #username for the VM
 $plainPassword = "VMP@55w0rd" #your VM password
 $VMSize = "Standard_B1s"
 
