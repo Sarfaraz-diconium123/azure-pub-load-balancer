@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update -y
 sudo apt install sshpass -y
-colors=(red green blue pink yellow grey)
+colors=(yellow green blue)
 for i in {0..2}
 do
 j=$(($i + 4))
