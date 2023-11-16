@@ -99,7 +99,7 @@ $jumpVm = New-AzVM -Name jumpbox-vm `
 -ResourceGroupName $rg `
 -Location $region `
 -Size 'Standard_B1s' `
--Image UbuntuLTS `
+-Image Debian11 `
 -VirtualNetworkName eus-web-dev `
 -SubnetName jumpboxSubnet `
 -Credential $credential `
