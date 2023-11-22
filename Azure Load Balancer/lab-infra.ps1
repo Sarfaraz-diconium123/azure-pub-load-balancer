@@ -105,7 +105,7 @@ $jumpVm = New-AzVM -Name jumpbox-vm `
 -Credential $credential `
 -PublicIpAddressName 'jumpbox-pip'
 
-Write-Host "Configuring VMs..." -BackgroundColor Green -ForegroundColor White 
+Write-Host "Configuring VMs..." -BackgroundColor Green -ForegroundColor Black 
 
 $Params = @{
     ResourceGroupName  = $rg
